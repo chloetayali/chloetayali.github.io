@@ -6,12 +6,12 @@ body {
 h1 {
     font-weight: 900;
     padding: 20px 30px 30px 30px;
-    font-size: 25px;
+    font-size: 40px;
     margin: 0;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 48px;
     line-height: 30px;
     font-weight: 700;
     margin: 0;
@@ -25,7 +25,7 @@ div {
 #kobras {
     background-image: url('./resources/17aeb8c944dd290d7a48a45ecd1d1bb7_original.jpg');
     background-size: cover;
-    min-height: 250px;
+    min-height: 400px;
     color: white;
     text-decoration: none;
     overflow: auto;
@@ -33,7 +33,7 @@ div {
 
 #kobras p {
     display: inline-block;
-    padding: 50px 0 0 30px;
+    padding: 150px 0 0 30px;
 }
 
 #kickstarter {
