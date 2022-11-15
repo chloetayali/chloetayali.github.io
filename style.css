@@ -1,25 +1,24 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #81B1B3;
+    background-color: #ACB9CD;
 }
 
 h1 {
     font-weight: 900;
     padding: 20px 30px 30px 30px;
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
 }
 
 h2 {
     font-size: 48px;
-    line-height: 30px;
     font-weight: 700;
     margin: 0;
 }
 
 div {
-    border-radius: 15px;
-    margin: 20px;
+    border-radius: 30px;
+    margin: 30px;
 }
 
 #kobras {
@@ -29,27 +28,82 @@ div {
     color: white;
     text-decoration: none;
     overflow: auto;
+    padding: 30px;
+}
+
+#kobras a {
+    color: white;
+    text-decoration: none;
+}
+#kobras a:hover {
+    color: #5093B4;
 }
 
 #kobras p {
+    font-size: 30px;
+    padding: 0;
+}
+
+p.last {
     display: inline-block;
-    padding: 150px 0 0 30px;
+    padding: 0;
+}
+
+#kobras h2 {
+    padding: 0;
+    padding-left: 30px;
 }
 
 #kickstarter {
-    line-height: 30px;
-    padding: 0 0 30px 30px;
+    display: inline-block;
+    padding: 0;
 }
 
-#kickstarter, a {
+#kickstarter a {
     color: white;
     text-decoration: none;
 }
 
-#kickstarter, a:hover {
+#kickstarter a:hover {
     color: #2bde73;
 }
 
 #archive {
-    background-color: green;
+    background-color: black;
+    padding: 30px;
+    overflow: auto;
+}
+
+#archive h1 {
+    color: white;
+    padding: 30px 30px;
+}
+
+#archive h2 {
+    display: inline-block;
+    padding: 0;
+}
+
+#archive p {
+    font-size: 30px;
+    padding: 0 30px;
+    color: white;
+}
+
+#archive p .last {
+    padding: 0;
+    display: inline-block;
+}
+
+#archive a {
+    color: rgb(166, 166, 166);
+    text-decoration: none;
+}
+
+#archive a:hover {
+    color: lightslategrey;
+}
+
+#archive h2 a:hover {
+    color: #ff8000;
 }
