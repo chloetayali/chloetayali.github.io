@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #81B1B3;
+}
+
+h1 {
+    font-weight: 900;
+    padding: 20px 30px 30px 30px;
+    font-size: 25px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+div {
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#kobras {
+    background-image: url('./resources/17aeb8c944dd290d7a48a45ecd1d1bb7_original.jpg');
+    background-size: cover;
+    min-height: 250px;
+    color: white;
+    text-decoration: none;
+    overflow: auto;
+}
+
+#kobras p {
+    display: inline-block;
+    padding: 50px 0 0 30px;
+}
+
+#kickstarter {
+    line-height: 30px;
+    padding: 0 0 30px 30px;
+}
+
+#kickstarter, a {
+    color: white;
+    text-decoration: none;
+}
+
+#kickstarter, a:hover {
+    color: #2bde73;
+}
+
+#archive {
+    background-color: green;
+}
