@@ -41,7 +41,7 @@ div {
 
 #kobras p {
     font-size: 30px;
-    padding: 0;
+    padding: 150px 0 0 30px;;
 }
 
 p.last {
@@ -62,6 +62,7 @@ p.last {
 #kickstarter a {
     color: white;
     text-decoration: none;
+    padding: 0;
 }
 
 #kickstarter a:hover {
@@ -98,6 +99,7 @@ p.last {
 #archive a {
     color: rgb(166, 166, 166);
     text-decoration: none;
+    padding: 0;
 }
 
 #archive a:hover {
