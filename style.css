@@ -19,10 +19,23 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-size: 36px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0;
     padding: 0;
     padding-bottom: 20px;
+    font-size: 30px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
 }
 
 div {
@@ -63,25 +76,25 @@ p.last {
 #kobras h2 {
 }
 
-#kickstarter {
+#spotify {
     display: inline-block;
 }
 
-#kickstarter a {
+#spotify a {
     color: white;
     text-decoration: none;
 }
 
-#kickstarter a:hover {
-    color: #2bde73;
+#spotify a:hover {
+    color: #1DB954;
 }
 
-#archive {
-    background-color: black;
+#maru {
+    background-color: #C0CDDA;
     overflow: auto;
 }
 
-#archive h1 {
+#maru h1 {
     color: white;
 }
 
@@ -90,24 +103,21 @@ p.last {
     margin-left: 10px;
 }
 
-#archive p {
+#maru p {
     font-size: 30px;
     color: white;
+    display: inline;
 }
 
-#archive p .last {
+#maru p .last {
     display: inline-block;
 }
 
-#archive a {
-    color: rgb(166, 166, 166);
+#maru a {
+    color: white;
     text-decoration: none;
 }
 
-#archive a:hover {
-    color: lightslategrey;
-}
-
-#archive h2 a:hover {
-    color: #ff8000;
+#maru a:hover {
+    color: #5093B4;
 }
